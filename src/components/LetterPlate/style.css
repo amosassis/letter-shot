@@ -1,0 +1,49 @@
+#plate {
+    animation: fadein 2s;
+    background-color: #fff;
+    color: red;
+    width: 160px;
+    height: 160px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 30px;
+    border: 2px solid brown;
+    font-size: 4em;
+}
+
+.left {
+    display: flex;
+    justify-content: left;
+    transform: rotate(-10deg);
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    transform: rotate(-3deg);
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    transform: rotate(10deg);
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.explode {        
+    color: #fff !important;
+    background-color: red !important;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
